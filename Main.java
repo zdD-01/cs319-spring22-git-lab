@@ -13,5 +13,9 @@ public class Main {
         // Try substraction
         calculator.Add(50, 15);
         System.out.println(calculator.getLastResault());
+
+        // Try multipication
+        calculator.Multiply(10, 30);
+        System.out.println(calculator.getLastResault());
     }
 }
